@@ -10,8 +10,8 @@ public class RangedConcoctionPotion extends SimplePotionItem {
         this.overridePotion("battlepotion");
         this.overridePotion("battlepotion");
         this.overridePotion("speedpotion");
-        this.overridePotion("healthregenpotin");
-        this.overridePotion("attackspeedpotin");
+        this.overridePotion("healthregenpotion");
+        this.overridePotion("attackspeedpotion");
         this.overridePotion("resistancepotion");
         this.overridePotion("accuracypotion");
         this.overridePotion("greaterbattlepotion");

@@ -1,5 +1,11 @@
 [item]
-examplestaff=Rangedconcoction
+magicconcoction=Magic Concoction
+meleeconcoction=Melee Concoction
+rangedconcoction=Ranged Concoction
+summonconcoction=Summon Concoction
 
 [itemtooltip]
-rangedconcoctiontip=Shoots a homing, piercing projectile
+magicconcoctiontip=Gives all basic potions + the Magic potion
+meleeconcoctiontip=Gives all basic potions + the Melee potion
+rangedconcoctiontip=Gives all basic potions + the Ranged potion
+summonconcoctiontip=Gives all basic potions + the Summoning potion
