@@ -1,14 +1,12 @@
 package Concoctions.mod;
 
-import necesse.entity.mobs.Attacker;
 import necesse.entity.mobs.buffs.ActiveBuff;
 import necesse.entity.mobs.buffs.BuffModifiers;
 import necesse.entity.mobs.buffs.staticBuffs.Buff;
-import necesse.entity.mobs.buffs.staticBuffs.SimplePotionBuff;
 
-public class RangedConcoctionBuff extends Buff {
+public class SummonConcoctionBuff extends Buff {
 
-    public RangedConcoctionBuff() {
+    public SummonConcoctionBuff() {
         canCancel = true;
         isVisible = true;
         shouldSave = true;
@@ -23,7 +21,7 @@ public class RangedConcoctionBuff extends Buff {
         activeBuff.setModifier(BuffModifiers.COMBAT_REGEN_FLAT, 0.5F);
         activeBuff.setModifier(BuffModifiers.ATTACK_SPEED, 0.15F);
         activeBuff.setModifier(BuffModifiers.ALL_DAMAGE, 0.1F);
-        activeBuff.setModifier(BuffModifiers.RANGED_DAMAGE, 0.1F);
+        activeBuff.setModifier(BuffModifiers.SUMMON_DAMAGE, 0.1F);
         activeBuff.setModifier(BuffModifiers.CRIT_CHANCE, 0.1F);
 
     }

@@ -3,9 +3,9 @@ package Concoctions.mod;
 
 import necesse.inventory.item.placeableItem.consumableItem.potionConsumableItem.SimplePotionItem;
 
-public class RangedConcoctionPotion extends SimplePotionItem {
+public class SummonConcoctionPotion extends SimplePotionItem {
 
-    public RangedConcoctionPotion() {
+    public SummonConcoctionPotion() {
         super(50, Rarity.RARE, "rangedconcoctionbuff", 300, "rangedconcoctiontip");
         this.overridePotion("battlepotion");
         this.overridePotion("battlepotion");
@@ -23,8 +23,8 @@ public class RangedConcoctionPotion extends SimplePotionItem {
         this.overridePotion("greateraccuracypotion");
         this.overridePotion("strengthpotion");
         this.overridePotion("rangerpotion");
-        this.overridePotion( "wisdompotion");
-        this.overridePotion(  "minionpotion");
+        this.overridePotion("wisdompotion");
+        this.overridePotion("minionpotion");
     }
 
 }
