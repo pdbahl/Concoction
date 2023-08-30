@@ -2,12 +2,11 @@ package Concoctions.mod;
 
 import necesse.engine.registries.BuffRegistry;
 import necesse.entity.mobs.buffs.ActiveBuff;
-import necesse.entity.mobs.buffs.BuffModifiers;
 import necesse.entity.mobs.buffs.staticBuffs.Buff;
 
-public class MagicConcoctionBuff extends Buff {
+public class OmniConcoctionBuff extends Buff {
 
-    public MagicConcoctionBuff() {
+    public OmniConcoctionBuff() {
         canCancel = true;
         isVisible = true;
         shouldSave = true;
@@ -22,8 +21,11 @@ public class MagicConcoctionBuff extends Buff {
         BuffRegistry.getBuff("accuracypotion").init(activeBuff);
         BuffRegistry.getBuff("healthregenpotion").init(activeBuff);
         BuffRegistry.getBuff("attackspeedpotion").init(activeBuff);
-        BuffRegistry.getBuff("wisdompotion").init(activeBuff);
         BuffRegistry.getBuff("manaregenpotion").init(activeBuff);
+        BuffRegistry.getBuff("wisdompotion").init(activeBuff);
+        BuffRegistry.getBuff("strengthpotion").init(activeBuff);
+        BuffRegistry.getBuff("rangerpotion").init(activeBuff);
+        BuffRegistry.getBuff("minionpotion").init(activeBuff);
     }
 
     @Override
@@ -35,5 +37,4 @@ public class MagicConcoctionBuff extends Buff {
     public void clientTick(ActiveBuff buff) {
         // You can do client ticks here, like adding particles to buff.owner
     }
-
 }

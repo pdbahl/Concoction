@@ -1,15 +1,12 @@
 package Concoctions.mod;
 
 import necesse.engine.registries.BuffRegistry;
-import necesse.entity.mobs.Attacker;
 import necesse.entity.mobs.buffs.ActiveBuff;
-import necesse.entity.mobs.buffs.BuffModifiers;
 import necesse.entity.mobs.buffs.staticBuffs.Buff;
-import necesse.entity.mobs.buffs.staticBuffs.SimplePotionBuff;
 
-public class RangedConcoctionBuff extends Buff {
+public class GreaterRangedConcoctionBuff extends Buff {
 
-    public RangedConcoctionBuff() {
+    public GreaterRangedConcoctionBuff() {
         canCancel = true;
         isVisible = true;
         shouldSave = true;
@@ -18,12 +15,12 @@ public class RangedConcoctionBuff extends Buff {
 
     @Override
     public void init(ActiveBuff activeBuff) {
-        BuffRegistry.getBuff("battlepotion").init(activeBuff);
-        BuffRegistry.getBuff("speedpotion").init(activeBuff);
-        BuffRegistry.getBuff("resistancepotion").init(activeBuff);
-        BuffRegistry.getBuff("accuracypotion").init(activeBuff);
-        BuffRegistry.getBuff("healthregenpotion").init(activeBuff);
-        BuffRegistry.getBuff("attackspeedpotion").init(activeBuff);
+        BuffRegistry.getBuff("greaterbattlepotion").init(activeBuff);
+        BuffRegistry.getBuff("greaterspeedpotion").init(activeBuff);
+        BuffRegistry.getBuff("greaterresistancepotion").init(activeBuff);
+        BuffRegistry.getBuff("greateraccuracypotion").init(activeBuff);
+        BuffRegistry.getBuff("greaterhealthregenpotion").init(activeBuff);
+        BuffRegistry.getBuff("greaterattackspeedpotion").init(activeBuff);
         BuffRegistry.getBuff("rangerpotion").init(activeBuff);
 
     }
@@ -37,5 +34,4 @@ public class RangedConcoctionBuff extends Buff {
     public void clientTick(ActiveBuff buff) {
         // You can do client ticks here, like adding particles to buff.owner
     }
-
 }

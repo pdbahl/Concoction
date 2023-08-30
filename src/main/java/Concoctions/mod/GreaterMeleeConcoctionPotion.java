@@ -1,12 +1,12 @@
 package Concoctions.mod;
 
-
+import necesse.inventory.item.Item;
 import necesse.inventory.item.placeableItem.consumableItem.potionConsumableItem.SimplePotionItem;
 
-public class MagicConcoctionPotion extends SimplePotionItem {
+public class GreaterMeleeConcoctionPotion extends SimplePotionItem {
 
-    public MagicConcoctionPotion() {
-        super(50, Rarity.RARE, "magicconcoctionbuff", 300, "magicconcoctiontip");
+    public GreaterMeleeConcoctionPotion() {
+        super(50, Rarity.RARE, "greatermeleeconcoctionbuff", 300, "greatermeleeconcoctiontip");
         this.overridePotion("battlepotion");
         this.overridePotion("battlepotion");
         this.overridePotion("speedpotion");
@@ -25,6 +25,13 @@ public class MagicConcoctionPotion extends SimplePotionItem {
         this.overridePotion("rangerpotion");
         this.overridePotion( "wisdompotion");
         this.overridePotion(  "minionpotion");
+        this.overridePotion(  "rangedconcoction");
+        this.overridePotion(  "meleeconcoction");
+        this.overridePotion(  "magicconcoction");
+        this.overridePotion(  "summonconcoction");
+        this.overridePotion(  "greaterrangedconcoction");
+        this.overridePotion(  "greatermeleeconcoction");
+        this.overridePotion(  "greatermagicconcoction");
+        this.overridePotion(  "greatersummonconcoction");
     }
-
 }
