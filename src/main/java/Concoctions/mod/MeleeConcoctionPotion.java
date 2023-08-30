@@ -6,8 +6,7 @@ import necesse.inventory.item.placeableItem.consumableItem.potionConsumableItem.
 public class MeleeConcoctionPotion extends SimplePotionItem {
 
     public MeleeConcoctionPotion() {
-        super(50, Rarity.RARE, "meleecoctionbuff", 300, "meleeconcoctiontip");
-        this.overridePotion("battlepotion");
+        super(50, Rarity.RARE, "meleeconcoctionbuff", 300, "meleeconcoctiontip");
         this.overridePotion("battlepotion");
         this.overridePotion("speedpotion");
         this.overridePotion("healthregenpotion");
@@ -25,6 +24,10 @@ public class MeleeConcoctionPotion extends SimplePotionItem {
         this.overridePotion("rangerpotion");
         this.overridePotion( "wisdompotion");
         this.overridePotion(  "minionpotion");
+        this.overridePotion(  "rangedconcoction");
+        this.overridePotion(  "meleeconcoction");
+        this.overridePotion(  "magicconcoction");
+        this.overridePotion(  "summonconcoction");
     }
 
 }

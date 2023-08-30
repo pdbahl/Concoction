@@ -1,6 +1,6 @@
 package Concoctions.mod;
 
-import necesse.inventory.item.Item;
+
 import necesse.inventory.item.placeableItem.consumableItem.potionConsumableItem.SimplePotionItem;
 
 public class GreaterOmniConcoctionPotion extends SimplePotionItem {

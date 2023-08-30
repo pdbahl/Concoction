@@ -12,15 +12,6 @@ public class ConcoctionMod {
 
     public void init() {
         System.out.println("Hello world from my example mod!");
-
-        BuffRegistry.registerBuff("rangedconcoctionbuff", new RangedConcoctionBuff());
-        BuffRegistry.registerBuff("magicconcoctionbuff", new MagicConcoctionBuff());
-        BuffRegistry.registerBuff("summonconcoctionbuff", new SummonConcoctionBuff());
-        BuffRegistry.registerBuff("meleeconcoctionbuff", new MeleeConcoctionBuff());
-        BuffRegistry.registerBuff("greaterrangedconcoctionbuff", new GreaterRangedConcoctionBuff());
-        BuffRegistry.registerBuff("greatermagicconcoctionbuff", new GreaterMagicConcoctionBuff());
-        BuffRegistry.registerBuff("greatersummonconcoctionbuff", new GreaterSummonConcoctionBuff());
-        BuffRegistry.registerBuff("greatermeleeconcoctionbuff", new GreaterMeleeConcoctionBuff());
         ItemRegistry.registerItem("rangedconcoction", new RangedConcoctionPotion(), 110, true);
         ItemRegistry.registerItem("magicconcoction", new MagicConcoctionPotion(), 110, true);
         ItemRegistry.registerItem("summonconcoction", new SummonConcoctionPotion(), 110, true);
@@ -34,6 +25,15 @@ public class ConcoctionMod {
         ItemRegistry.registerItem("omniconcoction", new OmniConcoctionPotion(), 110, true);
         BuffRegistry.registerBuff("greateromniconcoctionbuff", new GreaterOmniConcoctionBuff());
         ItemRegistry.registerItem("greateromniconcoction", new GreaterOmniConcoctionPotion(), 110, true);
+        BuffRegistry.registerBuff("rangedconcoctionbuff", new RangedConcoctionBuff());
+        BuffRegistry.registerBuff("magicconcoctionbuff", new MagicConcoctionBuff());
+        BuffRegistry.registerBuff("summonconcoctionbuff", new SummonConcoctionBuff());
+        BuffRegistry.registerBuff("meleeconcoctionbuff", new MeleeConcoctionBuff());
+        BuffRegistry.registerBuff("greaterrangedconcoctionbuff", new GreaterRangedConcoctionBuff());
+        BuffRegistry.registerBuff("greatermagicconcoctionbuff", new GreaterMagicConcoctionBuff());
+        BuffRegistry.registerBuff("greatersummonconcoctionbuff", new GreaterSummonConcoctionBuff());
+        BuffRegistry.registerBuff("greatermeleeconcoctionbuff", new GreaterMeleeConcoctionBuff());
+
     }
 
     public void postInit() {
@@ -192,7 +192,7 @@ public class ConcoctionMod {
                         new Ingredient("minionpotion",1),
                         new Ingredient("wisdompotion", 1),
                         new Ingredient("strengthpotion", 1),
-                        new Ingredient("alchemyshard", 3)
+                        new Ingredient("goldore", 3)
                 }
         ).showAfter("greatermagicconcoction"));
 

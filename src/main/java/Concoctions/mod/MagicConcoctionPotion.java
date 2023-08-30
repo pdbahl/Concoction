@@ -21,6 +21,9 @@ public class MagicConcoctionPotion extends SimplePotionItem {
         this.overridePotion("greaterattackspeedpotion");
         this.overridePotion("greaterresistancepotion");
         this.overridePotion("greateraccuracypotion");
+        this.overridePotion("rangedconcoction");
+        this.overridePotion("meleeconcoction");
+        this.overridePotion("summonconcoction");
         this.overridePotion("strengthpotion");
         this.overridePotion("rangerpotion");
         this.overridePotion( "wisdompotion");

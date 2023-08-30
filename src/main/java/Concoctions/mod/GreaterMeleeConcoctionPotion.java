@@ -30,7 +30,6 @@ public class GreaterMeleeConcoctionPotion extends SimplePotionItem {
         this.overridePotion(  "magicconcoction");
         this.overridePotion(  "summonconcoction");
         this.overridePotion(  "greaterrangedconcoction");
-        this.overridePotion(  "greatermeleeconcoction");
         this.overridePotion(  "greatermagicconcoction");
         this.overridePotion(  "greatersummonconcoction");
     }

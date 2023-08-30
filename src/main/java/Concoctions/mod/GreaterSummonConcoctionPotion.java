@@ -23,15 +23,14 @@ public class GreaterSummonConcoctionPotion extends SimplePotionItem {
         this.overridePotion("greateraccuracypotion");
         this.overridePotion("strengthpotion");
         this.overridePotion("rangerpotion");
-        this.overridePotion( "wisdompotion");
-        this.overridePotion(  "minionpotion");
-        this.overridePotion(  "rangedconcoction");
-        this.overridePotion(  "meleeconcoction");
-        this.overridePotion(  "magicconcoction");
-        this.overridePotion(  "summonconcoction");
-        this.overridePotion(  "greaterrangedconcoction");
-        this.overridePotion(  "greatermeleeconcoction");
-        this.overridePotion( "greatermagicconcoction");
-        this.overridePotion( "greatersummonconcoction");
+        this.overridePotion("wisdompotion");
+        this.overridePotion("minionpotion");
+        this.overridePotion("rangedconcoction");
+        this.overridePotion("meleeconcoction");
+        this.overridePotion("magicconcoction");
+        this.overridePotion("summonconcoction");
+        this.overridePotion("greaterrangedconcoction");
+        this.overridePotion("greatermeleeconcoction");
+        this.overridePotion("greatermagicconcoction");
     }
 }
